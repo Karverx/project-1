@@ -15,6 +15,12 @@ public class Role {
     @Column
     private String type;
 
+    public Role(){}
+
+    public Role(String type) {
+        this.type = type;
+    }
+
     public int getId() {
         return id;
     }
